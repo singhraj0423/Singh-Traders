@@ -355,14 +355,17 @@ overflow-x:hidden;
     html{
         font-size: 95%;
     }
-    #material_row,#contact_row{
+    #material_row{
         flex-wrap: wrap;
         padding: 0 10px 0 10px;
     }
     #about_row{
-        padding: 0 5px 10px 5px;
+        padding: 0 10px 0px 10px;
     }
-
+    #contact_row{
+        padding: 10px 10px 10px 10px;
+    }
+    
     #navbar h1{
         font-size: 1.5rem;
     }
